@@ -9,14 +9,18 @@
 
   <link rel="stylesheet" href="style.css">
 
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap')
+    </style>
+    
 </head>
 <body>
   <div id="container">
     <div class="result-section">
-      <h1 class="result-header">Your Result</h1>
+      <h2 class="result-header">Your Result</h2>
       <div class="result-score">
-        <p class="scoredNum">76</p>
-        <p class="limitNum">of 100</p>
+        <span class="big-score">76</span>
+        <span class="small-score">of 100</span>
       </div>
       <div class="result-comment">
         <h2 class="heading">Great</h2>
@@ -28,32 +32,48 @@
       <h3 class="summary-header">Summary</h3>
       <div id="summary-items">
 
-        <div class="reaction">
-          <img src="assets/images/icon-reaction.svg" alt="reaction_img">
-          <h3 class="reaction-header">Reaction</h3>
-          <p>80</p>
-          <p class="limitNum">/ 100</p>
+        <div class="score-con reaction-con">
+          <div class="items-name">
+        <img src="assets/images/icon-reaction.svg" alt="reaction_img">
+        <h3 class="reaction-header">Reaction</h3>
         </div>
-
-        <div class="memory">
-          <img src="assets/images/icon-memory.svg" alt="memory_img">
+        <div class="reaction-score">
+          <span class="black-text">80</span>
+          <span class="grey">/ 100</span>
+        </div>
+      </div>
+        
+        <div class="score-con memory-con">
+          <div class="items-name">
+            <img src="assets/images/icon-memory.svg" alt="memory_img">
           <h3 class="memory-header">Memory</h3>
-          <p>92</p>
-          <p class="limitNum">/ 100</p>
+          </div>
+          <div class="memory-score">
+            <span class="black-text">92</span>
+            <span class="grey">/ 100</span>
+          </div>
         </div>
 
-        <div class="verbal">
-          <img src="assets/images/icon-verbal.svg" alt="verbal">
+        <div class="score-con verbal-con">
+          <div class="items-name">
+          <img src="assets/images/icon-verbal.svg" alt="verbal_img">
           <h3 class="verbal-header">Verbal</h3>
-          <p>61</p>
-          <p class="limitNum">/ 100</p>
+          </div>
+          <div class="verbal-score">
+            <span class="black-text">61</span>
+            <span class="grey">/ 100</span>
+          </div>
         </div>
 
-        <div class="visual">
-          <img src="assets/images/icon-visual.svg" alt="visual">
+        <div class="score-con visual-con">
+          <div class="items-name">
+          <img src="assets/images/icon-visual.svg" alt="visual_img">
           <h3 class="visual-header">Visual</h3>
-          <p>72</p>
-          <p class="limitNum">/ 100</p>
+          </div>
+          <div class="visual-score">
+            <span class="black-text">72</span>
+            <span class="grey">/ 100</span>
+          </div>
         </div>
 
       </div>
